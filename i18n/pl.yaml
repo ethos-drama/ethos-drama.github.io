@@ -1,0 +1,38 @@
+- id: photographer_copyright
+  translation: 'Zdjęcia'
+
+- id: read_more
+  translation: Czytaj więcej
+
+- id: min_read
+  translation: minuty czytania
+
+- id: instagram
+  translation: Instagram
+
+- id: contact_me
+  translation: Skontaktuj się z nami
+
+- id: follow_me
+  translation: Obserwuj nas
+
+- id: first_name
+  translation: Imię
+
+- id: last_name
+  translation: Nazwisko
+
+- id: email
+  translation: Email
+
+- id: message
+  translation: Napisz swoją wiadomość...
+
+- id: submit
+  translation: wyślij wiadomość
+
+- id: search
+  translation: Szukaj tutaj
+
+- id: search_for
+  translation: Wyniki wyszukiwania dla

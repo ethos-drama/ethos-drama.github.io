@@ -1,0 +1,10 @@
+[en]
+languageName = "EN"
+languageCode = "pl"
+weight = 1
+
+
+[pl]
+languageName = "PL"
+languageCode = "pl"
+weight = 2
