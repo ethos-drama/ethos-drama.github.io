@@ -7,5 +7,5 @@ banner:
   button:
     enable: true
     label: "Bilety"
-    link: "tickets/"
+    link: "pl/events/"
 ---

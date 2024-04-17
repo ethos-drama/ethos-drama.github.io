@@ -7,5 +7,5 @@ banner:
   button:
     enable: true
     label: "Get tickets"
-    link: "tickets/"
+    link: "events/"
 ---
