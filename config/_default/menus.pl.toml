@@ -2,3 +2,8 @@
 name = "O nas"
 url = "pl/about/"
 weight = 1
+
+[[main]]
+name = "Wydarzenia"
+url = "pl/events/"
+weight = 2
