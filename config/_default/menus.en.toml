@@ -4,6 +4,11 @@ url = "about/"
 weight = 1
 
 [[main]]
+name = "Members"
+url = "members/"
+weight = 2
+
+[[main]]
 name = "Events"
 url = "events/"
-weight = 2
+weight = 3

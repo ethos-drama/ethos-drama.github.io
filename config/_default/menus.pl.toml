@@ -4,6 +4,11 @@ url = "pl/about/"
 weight = 1
 
 [[main]]
+name = "Członkowie"
+url = "pl/members/"
+weight = 2
+
+[[main]]
 name = "Wydarzenia"
 url = "pl/events/"
-weight = 2
+weight = 3

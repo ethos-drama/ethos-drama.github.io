@@ -67,3 +67,11 @@ suffixes = [""]
 [outputFormats.WebAppManifest]
 mediaType = "application/manifest+json"
 rel = "manifest"
+
+[[cascade]]
+  [cascade._target]
+    kind = 'page'
+    path = '/members/**'
+  [cascade.params]
+    [cascade.params.build]
+      render = 'never'

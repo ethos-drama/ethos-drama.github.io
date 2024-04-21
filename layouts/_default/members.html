@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+<section class="section border-top bg-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <!-- start post range -->
+          {{ range .Pages }}
+          <div class="col">
+            <div class="blog-card card mb-3">
+              <div class="card-img position-relative ratio ratio-4x3">
+                {{ partial "image.html" (dict "Src" .Params.image "Class" "w-100 card-img-top")}}
+              </div>
+
+              <div class="card-body">
+                <h2 class="h3 fw-light mb-3"><a class="post-title" href="{{.RelPermalink}}">{{ .Title }} </a></h2>
+                <p class="card-text mb-4">{{ .Content }}</p>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+          <!-- end of post range -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+{{ end }}
