@@ -36,3 +36,22 @@
 
 - id: search_for
   translation: Wyniki wyszukiwania dla
+
+- id: written_by
+  translation: Scenariusz
+
+- id: language
+  translation: Język
+
+- id: duration
+  translation: Czas trwania
+
+- id: hours
+  one: '{{ . }} godzina'
+  few: '{{ . }} godziny'
+  many: '{{ . }} godzin'
+
+- id: minutes
+  one: '{{ . }} minuta'
+  few: '{{ . }} minuty'
+  many: '{{ . }} minut'

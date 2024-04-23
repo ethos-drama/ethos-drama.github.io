@@ -9,6 +9,11 @@ url = "members/"
 weight = 2
 
 [[main]]
+name = "O'Death"
+url = "plays/o-death/"
+weight = 3
+
+[[main]]
 name = "Events"
 url = "events/"
-weight = 3
+weight = 4

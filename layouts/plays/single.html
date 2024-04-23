@@ -1,0 +1,41 @@
+{{ define "main" }}
+
+{{ partial "components/page-header.html" . }}
+<section class="section-sm">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-7">
+        <div class="content">
+          {{ .Content }}
+        </div>
+      </div>
+      <div class="col-lg-3">
+        {{ if .Params.image }}
+          {{ partial "image.html" (dict "Src" .Params.image "Class" "rounded mb-3") }}
+        {{ end }}
+
+        <table class="table">
+          <tbody>
+            <td>{{ i18n "written_by" }}</td>
+            <td>{{ .Params.written_by }}</td>
+          </tbody>
+          <tbody>
+            <td>{{ i18n "language" }}</td>
+            <td>{{ .Params.language }}</td>
+          </tbody>
+            <td>{{ i18n "duration" }}</td>
+            <td>
+              {{ $duration := time.Duration "minute" .Params.duration }}
+              {{ $hours := cast.ToInt $duration.Hours }}
+              {{ $minutes := math.Sub $duration.Minutes (math.Mul $hours 60) }}
+              {{ if gt $hours 0 }}{{ i18n "hours" $hours }}{{ end }}
+              {{ if gt $minutes 0 }}{{ i18n "minutes" $minutes }}{{ end }}
+            </td>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

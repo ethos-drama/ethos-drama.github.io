@@ -36,3 +36,20 @@
 
 - id: search_for
   translation: Search results for
+
+- id: written_by
+  translation: Written by
+
+- id: language
+  translation: Language
+
+- id: duration
+  translation: Duration
+
+- id: hours
+  one: '{{ . }} hour'
+  other: '{{ . }} hours'
+
+- id: minutes
+  one: '{{ . }} minute'
+  other: '{{ . }} minutes'
